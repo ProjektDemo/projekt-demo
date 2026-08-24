@@ -34,7 +34,12 @@ document.addEventListener(
               </p>
 
               <h2>
-                ${product.name}
+                <a
+                  href="../produkt/?id=${encodeURIComponent(product.id)}"
+                  class="product-title-link"
+                >
+                  ${product.name}
+                </a>
               </h2>
 
               <p class="product-description">
@@ -44,6 +49,13 @@ document.addEventListener(
               <p class="product-price">
                 ${Store.money(product.price)}
               </p>
+
+              <a
+                href="../produkt/?id=${encodeURIComponent(product.id)}"
+                class="product-details-link"
+              >
+                Zobacz produkt →
+              </a>
 
               <button
                 class="add-to-cart"
