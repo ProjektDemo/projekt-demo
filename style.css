@@ -90,6 +90,22 @@ a {
   color: #f4f1e8;
 }
 
+.test-button {
+  margin-top: 20px;
+  padding: 12px 20px;
+
+  border: 1px solid #181818;
+  background: transparent;
+
+  font: inherit;
+  cursor: pointer;
+}
+
+.test-button:hover {
+  background: #181818;
+  color: #f4f1e8;
+}
+
 
 /* ARTYKUŁY */
 
