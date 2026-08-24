@@ -3,10 +3,104 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>projektDemo</title>
+
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <h1>projektDemo</h1>
-  <p>Moja pierwsza zmiana zrobiona lokalnie w VS Code</p>
+
+  <header class="site-header">
+    <div class="container">
+      <nav class="navigation">
+        <a class="logo" href="#">projektDemo</a>
+
+        <div class="nav-links">
+          <a href="#">Strona główna</a>
+          <a href="#articles">Artykuły</a>
+          <a href="#about">O projekcie</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <div class="container">
+        <p class="eyebrow">projektDemo / 2026</p>
+
+        <h1>Uczę się budować internet od środka.</h1>
+
+        <p class="hero-text">
+          Testowa strona do nauki HTML, CSS, JavaScriptu,
+          analityki internetowej i e-commerce.
+        </p>
+
+        <a class="button" href="#articles">Zobacz artykuły</a>
+      </div>
+    </section>
+
+
+    <section class="articles" id="articles">
+      <div class="container">
+
+        <h2>Najnowsze</h2>
+
+        <div class="article-grid">
+
+          <article class="article-card">
+            <p class="article-number">001</p>
+            <h3>Pierwszy artykuł</h3>
+            <p>
+              Tutaj kiedyś pojawi się pierwszy prawdziwy tekst.
+            </p>
+            <a href="#">Czytaj dalej →</a>
+          </article>
+
+          <article class="article-card">
+            <p class="article-number">002</p>
+            <h3>Jak powstaje ta strona</h3>
+            <p>
+              Od pustego pliku HTML do działającego projektu.
+            </p>
+            <a href="#">Czytaj dalej →</a>
+          </article>
+
+          <article class="article-card">
+            <p class="article-number">003</p>
+            <h3>Eksperymenty</h3>
+            <p>
+              Miejsce na testowanie analityki, SEO i e-commerce.
+            </p>
+            <a href="#">Czytaj dalej →</a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+
+    <section class="about" id="about">
+      <div class="container">
+        <h2>O projekcie</h2>
+
+        <p>
+          projektDemo jest stroną stworzoną do nauki budowania,
+          mierzenia i rozwijania stron internetowych.
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>projektDemo © 2026</p>
+    </div>
+  </footer>
+
 </body>
 </html>

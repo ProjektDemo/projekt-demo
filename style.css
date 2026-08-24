@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f1e8;
+  color: #181818;
+  line-height: 1.6;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  width: min(1100px, 90%);
+  margin: 0 auto;
+}
+
+
+/* HEADER */
+
+.site-header {
+  border-bottom: 1px solid #181818;
+}
+
+.navigation {
+  min-height: 70px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  gap: 24px;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+
+/* HERO */
+
+.hero {
+  padding: 120px 0;
+  border-bottom: 1px solid #181818;
+}
+
+.eyebrow {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.hero h1 {
+  max-width: 800px;
+  margin: 20px 0;
+
+  font-size: clamp(3rem, 8vw, 6rem);
+  line-height: 0.95;
+}
+
+.hero-text {
+  max-width: 600px;
+  font-size: 1.2rem;
+}
+
+.button {
+  display: inline-block;
+
+  margin-top: 24px;
+  padding: 12px 20px;
+
+  background: #181818;
+  color: #f4f1e8;
+}
+
+
+/* ARTYKUŁY */
+
+.articles {
+  padding: 80px 0;
+}
+
+.articles h2,
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.article-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.article-card {
+  padding: 24px;
+  border: 1px solid #181818;
+}
+
+.article-number {
+  font-size: 0.8rem;
+}
+
+.article-card h3 {
+  font-size: 1.5rem;
+}
+
+.article-card a {
+  font-weight: bold;
+}
+
+
+/* O PROJEKCIE */
+
+.about {
+  padding: 80px 0;
+  border-top: 1px solid #181818;
+}
+
+.about p {
+  max-width: 700px;
+  font-size: 1.2rem;
+}
+
+
+/* FOOTER */
+
+.site-footer {
+  padding: 30px 0;
+  border-top: 1px solid #181818;
+}
+
+
+/* TELEFONY */
+
+@media (max-width: 700px) {
+
+  .navigation {
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 15px 0;
+  }
+
+  .nav-links {
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+
+  .hero {
+    padding: 80px 0;
+  }
+
+  .article-grid {
+    grid-template-columns: 1fr;
+  }
+
+}
