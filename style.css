@@ -126,6 +126,52 @@ a {
   font-weight: bold;
 }
 
+/* STRONA ARTYKUŁU */
+
+.article-page {
+  padding: 100px 0;
+}
+
+.article-container {
+  max-width: 760px;
+}
+
+.article-page h1 {
+  margin: 20px 0 30px;
+
+  font-size: clamp(3rem, 8vw, 5rem);
+  line-height: 1;
+}
+
+.article-lead {
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+
+.article-page hr {
+  margin: 50px 0;
+  border: 0;
+  border-top: 1px solid #181818;
+}
+
+.article-page h2 {
+  margin-top: 50px;
+  font-size: 2rem;
+}
+
+.article-page p {
+  font-size: 1.1rem;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 50px;
+  font-weight: bold;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
 
 /* O PROJEKCIE */
 
