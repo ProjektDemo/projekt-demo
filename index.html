@@ -6,6 +6,7 @@
   <title>projektDemo</title>
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
+  <script src="assets/js/store.js"></script>
 </head>
 
 <body>
@@ -16,11 +17,39 @@
         <a class="logo" href="#">projektDemo</a>
 
         <div class="nav-links">
-          <a href="#">Strona główna</a>
-          <a href="#articles">Artykuły</a>
-          <a href="#about">O projekcie</a>
-          <a href="sklep/">Sklep</a>
-        </div>
+
+  <a href="#">
+    Strona główna
+  </a>
+
+  <a href="#articles">
+    Artykuły
+  </a>
+
+  <a href="sklep/">
+    Sklep
+  </a>
+
+  <a href="#about">
+    O projekcie
+  </a>
+
+  <a
+    class="cart-link"
+    href="koszyk/"
+  >
+    Koszyk
+
+    <span
+      class="cart-badge"
+      data-cart-count
+    >
+      0
+    </span>
+
+  </a>
+
+</div>
       </nav>
     </div>
   </header>

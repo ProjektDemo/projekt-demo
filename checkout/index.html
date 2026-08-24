@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>Kasa | projektDemo</title>
+
+  <link
+    rel="stylesheet"
+    href="../style.css"
+  >
+
+  <script
+    src="../assets/js/products.js"
+    defer
+  ></script>
+
+  <script
+    src="../assets/js/store.js"
+    defer
+  ></script>
+
+  <script
+    src="../assets/js/checkout.js"
+    defer
+  ></script>
+
+</head>
+
+
+<body>
+
+<header class="site-header">
+
+  <div class="container">
+
+    <nav class="navigation">
+
+      <a
+        class="logo"
+        href="../index.html"
+      >
+        projektDemo
+      </a>
+
+      <div class="nav-links">
+
+        <a href="../sklep/">
+          Sklep
+        </a>
+
+        <a href="../koszyk/">
+          Koszyk
+          <span
+            class="cart-badge"
+            data-cart-count
+          >
+            0
+          </span>
+        </a>
+
+      </div>
+
+    </nav>
+
+  </div>
+
+</header>
+
+
+<main>
+
+<section class="checkout-page">
+
+  <div class="container">
+
+    <p class="eyebrow">
+      projektDemo / checkout
+    </p>
+
+    <h1>Kasa</h1>
+
+
+    <div
+      id="checkout-empty"
+      hidden
+    >
+
+      <p>
+        Nie masz produktów
+        w koszyku.
+      </p>
+
+      <a
+        class="button"
+        href="../sklep/"
+      >
+        Wróć do sklepu
+      </a>
+
+    </div>
+
+
+    <div
+      id="checkout-content"
+      class="checkout-grid"
+    >
+
+      <form
+        id="checkout-form"
+        class="checkout-form"
+      >
+
+        <h2>Dane zamówienia</h2>
+
+
+        <label>
+
+          Imię i nazwisko
+
+          <input
+            type="text"
+            name="name"
+            required
+          >
+
+        </label>
+
+
+        <label>
+
+          E-mail
+
+          <input
+            type="email"
+            name="email"
+            required
+          >
+
+        </label>
+
+
+        <label>
+
+          Ulica i numer
+
+          <input
+            type="text"
+            name="street"
+            required
+          >
+
+        </label>
+
+
+        <div class="form-row">
+
+          <label>
+
+            Kod pocztowy
+
+            <input
+              type="text"
+              name="postal"
+              placeholder="00-000"
+              required
+            >
+
+          </label>
+
+
+          <label>
+
+            Miasto
+
+            <input
+              type="text"
+              name="city"
+              required
+            >
+
+          </label>
+
+        </div>
+
+
+        <div class="demo-notice">
+
+          To jest sklep demonstracyjny.
+          Żadne dane nie są wysyłane
+          ani zapisywane na serwerze.
+
+        </div>
+
+
+        <button
+          class="checkout-button"
+          type="submit"
+        >
+          Złóż testowe zamówienie
+        </button>
+
+      </form>
+
+
+      <aside class="checkout-summary">
+
+        <h2>Twoje zamówienie</h2>
+
+        <div
+          id="checkout-items"
+        ></div>
+
+        <div
+          class="summary-row summary-total"
+        >
+
+          <span>Razem</span>
+
+          <strong
+            id="checkout-total"
+          >
+            0 zł
+          </strong>
+
+        </div>
+
+      </aside>
+
+    </div>
+
+  </div>
+
+</section>
+
+</main>
+
+
+<footer class="site-footer">
+
+  <div class="container">
+    <p>projektDemo © 2026</p>
+  </div>
+
+</footer>
+
+</body>
+
+</html>

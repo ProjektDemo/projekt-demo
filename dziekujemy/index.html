@@ -11,7 +11,7 @@
     content="width=device-width, initial-scale=1.0"
   >
 
-  <title>Sklep | projektDemo</title>
+  <title>Zamówienie | projektDemo</title>
 
   <link
     rel="stylesheet"
@@ -29,7 +29,7 @@
   ></script>
 
   <script
-    src="../assets/js/shop.js"
+    src="../assets/js/thanks.js"
     defer
   ></script>
 
@@ -57,21 +57,8 @@
           Strona główna
         </a>
 
-        <a href="./">
+        <a href="../sklep/">
           Sklep
-        </a>
-
-        <a
-          class="cart-link"
-          href="../koszyk/"
-        >
-          Koszyk
-          <span
-            class="cart-badge"
-            data-cart-count
-          >
-            0
-          </span>
         </a>
 
       </div>
@@ -85,32 +72,58 @@
 
 <main>
 
-<section class="shop">
+<section class="thanks-page">
 
   <div class="container">
 
     <p class="eyebrow">
-      projektDemo / sklep
+      projektDemo / zamówienie
     </p>
 
-    <h1>Sklep</h1>
+    <h1>
+      Dzięki!
+    </h1>
 
-    <p class="shop-intro">
-      Testowy sklep przygotowany
-      do nauki e-commerce,
-      JavaScriptu oraz analityki.
+    <p class="thanks-lead">
+
+      Testowe zamówienie
+      zostało złożone.
+
     </p>
 
-    <p
-      id="shop-message"
-      class="shop-message"
-      aria-live="polite"
-    ></p>
 
-    <div
-      class="product-grid"
-      id="product-grid"
-    ></div>
+    <div class="order-box">
+
+      <p>
+        Numer zamówienia
+      </p>
+
+      <strong
+        id="order-number"
+      >
+        —
+      </strong>
+
+
+      <p>
+        Wartość
+      </p>
+
+      <strong
+        id="order-total"
+      >
+        —
+      </strong>
+
+    </div>
+
+
+    <a
+      class="button"
+      href="../sklep/"
+    >
+      Wróć do sklepu
+    </a>
 
   </div>
 
