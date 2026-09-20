@@ -1,4 +1,4 @@
-# Strona Główna — wersja po audycie UX
+# Strona Główna — portal 1999–2003
 
 Statyczna witryna gotowa do publikacji na Cloudflare Pages lub dowolnym serwerze WWW.
 
@@ -12,11 +12,12 @@ Katalog wyjściowy: `site`
 
 Nie jest wymagane polecenie budowania.
 
-## Najważniejsze zmiany
+## Kierunek wizualny
 
-- właściwa treść pojawia się od razu na urządzeniach mobilnych;
-- usunięto niedziałającą wyszukiwarkę, licznik, puste bannery, atrapy newslettera i RSS;
-- zredukowano liczbę powtarzających się list i nawigacji;
-- artykuły mają pojedynczą, czytelną kolumnę oraz sekcję powiązanych materiałów;
-- zachowano logo, paletę, linki i buttony 88×31 jako elementy charakteru marki;
+- kompaktowy portal o szerokości 960 px i układzie trzech kolumn;
+- mała Verdana/Tahoma, nagłówki Georgia i klasyczne podkreślone linki;
+- gradientowe belki, cienkie szare ramki i buttony 88×31;
+- gęsta informacja zamiast współczesnych kart, wielkich hero i pustej przestrzeni;
+- na telefonie środkowa kolumna z treścią jest wyświetlana przed panelami bocznymi;
+- brak niedziałającej wyszukiwarki, licznika, atrap newslettera i RSS;
 - wszystkie odnośniki wewnętrzne prowadzą do istniejących stron.
