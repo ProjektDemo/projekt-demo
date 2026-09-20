@@ -41,3 +41,30 @@ img{max-width:100%} button,input,textarea,select{font:inherit}
 @media(max-width:860px){.site{width:min(100% - 10px,980px);margin:5px auto}.header{grid-template-columns:1fr}.layout{grid-template-columns:152px minmax(0,1fr)}.right{grid-column:1/-1;display:grid;grid-template-columns:repeat(3,1fr);gap:8px}}
 @media(max-width:640px){body{font-size:13px}.layout{grid-template-columns:1fr}.left,.right{display:grid;grid-template-columns:1fr 1fr;gap:8px}.header{padding:8px}.logo{font-size:24px}.nav{display:grid;grid-template-columns:repeat(2,1fr)}.nav a{border-bottom:1px solid #07172c}.statusbar{flex-direction:column}.news-item{grid-template-columns:78px 1fr}.right{grid-template-columns:1fr 1fr}.today-grid{grid-template-columns:1fr}.ticker{white-space:normal}}
 @media(max-width:420px){.left,.right{grid-template-columns:1fr}.news-item{grid-template-columns:1fr}.thumb{height:100px}.listing-item{grid-template-columns:1fr}.logo-mark{width:52px;height:52px}.logo{font-size:21px}}
+
+/* BANER W MIEJSCU LOGO */
+.logo-wrap {
+  min-height: 108px;
+  background: url("../images/strona-glowna-banner.png") left center / min(100%, 430px) auto no-repeat;
+}
+
+.logo-wrap > * {
+  opacity: 0;
+}
+
+.logo-wrap {
+  gap: 12px;
+  background-position: 104px center;
+  background-size: min(430px, calc(100% - 104px)) auto;
+}
+
+.logo-wrap .logo-mark {
+  width: 92px;
+  height: 92px;
+  opacity: 1;
+  border: 0;
+  background: url("../images/earth-logo.png") center / contain no-repeat;
+  box-shadow: none;
+  color: transparent;
+  font-size: 0;
+}
