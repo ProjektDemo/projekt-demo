@@ -1,12 +1,22 @@
-# Strona Główna — portal v0.2
+# Strona Główna — wersja po audycie UX
 
-Statyczny prototyp portalu inspirowanego przesłanym `projektDemo-portal-2001-v0.2`.
+Statyczna witryna gotowa do publikacji na Cloudflare Pages lub dowolnym serwerze WWW.
 
-## Założenie
-Surowy portal inspirowany starym internetem, ale napisany współczesnym HTML/CSS/JS i responsywny. Treści: dobre/neutralne wiadomości, stara technika używana dzisiaj, codzienność „po staremu” i kultura 1985–2005.
+## Uruchomienie lokalne
 
-## Uruchomienie
-Otwórz `index.html` w przeglądarce. Nie wymaga serwera ani instalacji.
+Uruchom serwer HTTP w katalogu `site`, a następnie otwórz adres serwera w przeglądarce. Witryna używa ścieżek zaczynających się od `/`, dlatego nie należy otwierać plików HTML bezpośrednio z dysku.
 
-## Stan wersji
-To wersja demonstracyjna. Formularze i wyszukiwarka są atrapami. Licznik jest ustawiony na `0000`.
+## Publikacja w Cloudflare Pages
+
+Katalog wyjściowy: `site`
+
+Nie jest wymagane polecenie budowania.
+
+## Najważniejsze zmiany
+
+- właściwa treść pojawia się od razu na urządzeniach mobilnych;
+- usunięto niedziałającą wyszukiwarkę, licznik, puste bannery, atrapy newslettera i RSS;
+- zredukowano liczbę powtarzających się list i nawigacji;
+- artykuły mają pojedynczą, czytelną kolumnę oraz sekcję powiązanych materiałów;
+- zachowano logo, paletę, linki i buttony 88×31 jako elementy charakteru marki;
+- wszystkie odnośniki wewnętrzne prowadzą do istniejących stron.
