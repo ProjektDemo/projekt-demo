@@ -1,23 +1,18 @@
-# Strona Główna — portal 1999–2003
+# Strona Główna — portal v0.3
 
-Statyczna witryna gotowa do publikacji na Cloudflare Pages lub dowolnym serwerze WWW.
+Statyczny prototyp portalu inspirowanego przesłanym `projektDemo-portal-2001-v0.2`.
 
-## Uruchomienie lokalne
+## Założenie
+Surowy portal inspirowany starym internetem, ale napisany współczesnym HTML/CSS/JS i responsywny. Treści: dobre/neutralne wiadomości, stara technika używana dzisiaj, codzienność „po staremu” i kultura 1985–2005.
 
-Uruchom serwer HTTP w katalogu `site`, a następnie otwórz adres serwera w przeglądarce. Witryna używa ścieżek zaczynających się od `/`, dlatego nie należy otwierać plików HTML bezpośrednio z dysku.
+## Uruchomienie
+Otwórz `index.html` w przeglądarce. Nie wymaga serwera ani instalacji.
 
-## Publikacja w Cloudflare Pages
+## Stan wersji
+To wersja demonstracyjna. Formularze i wyszukiwarka są atrapami. Licznik jest ustawiony na `0000`.
 
-Katalog wyjściowy: `site`
-
-Nie jest wymagane polecenie budowania.
-
-## Kierunek wizualny
-
-- kompaktowy portal o szerokości 960 px i układzie trzech kolumn;
-- mała Verdana/Tahoma, nagłówki Georgia i klasyczne podkreślone linki;
-- gradientowe belki, cienkie szare ramki i buttony 88×31;
-- gęsta informacja zamiast współczesnych kart, wielkich hero i pustej przestrzeni;
-- na telefonie środkowa kolumna z treścią jest wyświetlana przed panelami bocznymi;
-- brak niedziałającej wyszukiwarki, licznika, atrap newslettera i RSS;
-- wszystkie odnośniki wewnętrzne prowadzą do istniejących stron.
+## Zmiany w v0.3
+- usunięto demonstracyjny materiał o Nokii 6310i wraz ze wszystkimi odnośnikami;
+- usunięto demonstracyjny materiał o filmie `The Game` wraz ze wszystkimi odnośnikami;
+- pole wyszukiwania korzysta teraz z neutralnego przykładu `Windows XP`;
+- moduł `TOP 5` zmieniono na `TOP 3`.
