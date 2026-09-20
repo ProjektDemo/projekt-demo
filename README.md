@@ -1,23 +1,12 @@
-# projektDemo — Portal 2001 / v0.2
+# Strona Główna — portal v0.1
 
-Alternatywna wersja portalu inspirowana internetem z okolic 1999–2003.
+Statyczny prototyp portalu inspirowanego przesłanym `projektDemo-portal-2001-v0.2`.
 
-## Co zawiera
-- 3-kolumnowy układ portalu
-- nawigację w stylu starych serwisów
-- stronę główną
-- listę artykułów
-- 5 placeholderowych artykułów
-- archiwum
-- O projekcie
-- kontakt demo
-- księgę gości demo
-- stronę 404
-- licznik, statusy, 88×31, placeholder 468×60
-- zegar JS i formularze demo
-- responsywność na telefonach
+## Założenie
+Surowy portal z przełomu 1999–2001, ale napisany współczesnym HTML/CSS/JS i responsywny. Treści: dobre/neutralne wiadomości, stara technika używana dzisiaj, codzienność „po staremu”, kultura 1985–2005 i kapsuła czasu 1999.
 
 ## Uruchomienie
-Otwórz folder w VS Code i uruchom przez Live Server.
+Otwórz `index.html` w przeglądarce. Nie wymaga serwera ani instalacji.
 
-Formularze i wyszukiwarka są atrapami. Niczego nie wysyłają.
+## Status
+To wersja demonstracyjna. Formularze i wyszukiwarka są atrapami. Licznik używa localStorage.
